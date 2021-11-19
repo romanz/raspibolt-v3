@@ -5,7 +5,7 @@ nav_order: 40
 parent: Raspberry Pi
 ---
 <!-- markdownlint-disable MD014 MD022 MD025 MD033 MD040 -->
-{% include_relative raspibolt_include_metatags.md %}
+{% include_relative include_metatags.md %}
 
 # Security
 {: .no_toc }
@@ -272,4 +272,4 @@ This setup is called a "reverse proxy": NGINX provides secure communication to t
 
 ---
 
-Next: [Privacy >>](raspibolt_22_privacy.md)
+Next: [Privacy >>](privacy.md)

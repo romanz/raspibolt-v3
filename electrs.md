@@ -39,7 +39,7 @@ The article "[We need Bitcoin full nodes. Economic ones.](https://shiftcrypto.ch
 
 ---
 
-🚨 Make sure that you have [reduced the database cache of Bitcoin Core](raspibolt_30_bitcoin.html#reduce-dbcache-after-full-sync) after full sync.
+🚨 Make sure that you have [reduced the database cache of Bitcoin Core](bitcoin-core.html#reduce-dbcache-after-full-sync) after full sync.
 
 ---
 
@@ -241,7 +241,7 @@ Electrs needs to start automatically on system boot.
 
 ## Secure communication
 
-In the [Security section](raspibolt_21_security.html), we already set up NGINX as a reverse proxy.
+In the [Security section](security.md), we already set up NGINX as a reverse proxy.
 Now we can add the Electrs configuration.
 
 * Create Electrs configuration file for NGINX, and paste the following content
@@ -428,4 +428,4 @@ Make sure to check the [release notes](https://github.com/romanz/electrs/blob/ma
 
 ---
 
-Next: [Blockchain Explorer >>](raspibolt_55_explorer.md)
+Next: [Blockchain Explorer >>](btcrpcexplorer.md)

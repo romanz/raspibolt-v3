@@ -87,4 +87,4 @@ This can be done by configuring the DHCP-Client (on the Pi) to advertise a stati
 
 ------
 
-<< Back: [Troubleshooting](raspibolt_70_troubleshooting.md)
+<< Back: [Troubleshooting](troubleshooting.md)

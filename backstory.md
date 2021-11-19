@@ -4,7 +4,7 @@ title: Backstory
 nav_order: 10
 ---
 <!-- markdownlint-disable MD014 MD022 MD025 MD040 -->
-{% include_relative raspibolt_include_metatags.md %}
+{% include_relative include_metatags.md %}
 
 # Backstory
 {: .no_toc }
@@ -43,7 +43,7 @@ I am not a systems specialist, so please feel free to point out improvements.
 
 ## The good old days
 
-This was the original goal of the RaspiBolt guide back in 2017: simply buying a Blockaccino. 
+This was the original goal of the RaspiBolt guide back in 2017: simply buying a Blockaccino.
 I used the [Eclair](https://github.com/ACINQ/eclair){:target="_blank"} Lighting implementation back then, on Lightning testnet, as mainnet was not even running yet.
 Oh, how time flies...
 
@@ -62,4 +62,4 @@ Thanks to everyone who cares about Bitcoin and feels that running your own Bitco
 
 ---
 
-Get started: [Rasperry Pi >>](raspibolt_section_raspberry-pi.md)
+Get started: [Rasperry Pi >>](raspberry-pi.md)

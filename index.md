@@ -4,7 +4,7 @@ title: Intro
 nav_order: 1
 ---
 <!-- markdownlint-disable MD014 MD022 MD025 MD033 MD040 -->
-{% include_relative raspibolt_include_metatags.md %}
+{% include_relative include_metatags.md %}
 
 ![RaspiBolt Logo](images/raspibolt3-logo-darkmode-glow.png)
 
@@ -63,21 +63,21 @@ If you like to learn about Linux, Bitcoin, and Lightning, this guide is for you.
 
 We aim to keep the core of this guide well maintained and up-to-date:
 
-1. [Backstory](raspibolt_backstory.md): a bit of history, as this guide has come a long way
-1. [Raspberry Pi](raspibolt_section_raspberry-pi.md): prepare the hardware and set up the operating system
-1. [Bitcoin](raspibolt_section_bitcoin.md): sync your own Bitcoin full node, Electrum server, and Blockchain Explorer
-1. [Lightning](raspibolt_section_lightning.md): run your own Lightning client with web-based node management
+1. [Backstory](backstory.md): a bit of history, as this guide has come a long way
+1. [Raspberry Pi](raspberry-pi.md): prepare the hardware and set up the operating system
+1. [Bitcoin](bitcoin.md): sync your own Bitcoin full node, Electrum server, and Blockchain Explorer
+1. [Lightning](lightning.md): run your own Lightning client with web-based node management
 
 The bonus section contains more specific guides that build on top of the main section.
 More fun, lots of knowledge, but with lesser maintenance guarantees.
 Everything is optional.
 
-1. [Bonus guides](raspibolt_section_bonus.md)
+1. [Bonus guides](bonus-section.md)
 
 Running into issues?
 
-1. [Troubleshooting](raspibolt_70_troubleshooting.md): first aid to debug your system
-1. [FAQ](raspibolt_faq.md): frequently asked questions and further reading
+1. [Troubleshooting](troubleshooting.md): first aid to debug your system
+1. [FAQ](faq.md): frequently asked questions and further reading
 
 ---
 
@@ -96,4 +96,4 @@ And feel free to join the many other contributors if you see something that can 
 
 ---
 
-Get started: [Backstory >>](raspibolt_backstory.md)
+Get started: [Backstory >>](backstory.md)
