@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Troubleshooting
-nav_order: 80
+nav_order: 210
 ---
 # Troubleshooting
 {: .no_toc }
@@ -53,10 +53,6 @@ Linux RaspiBolt 4.14.71-v7+ #1145 SMP Fri Sep 21 15:38:35 BST 2018 armv7l GNU/Li
 ```
 
 Important is that your Raspberry Pi uses the **armv7** CPU architecture.
-
-#### Is you root filesystem read-only?
-
-If you get an error like `unable to ..... : Read-only file system`, this points to a faulty microSD card. If linux detects a corrupt root filesystem, it drops into read-only mode. Try to flash the microSD card again, or use a different card.
 
 #### Is the hard disk mounted?
 
